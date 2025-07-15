@@ -1,9 +1,8 @@
-import Hero from "./components/Hero";
+import Home from "./pages/Home";
 function App() {
   return (
     <div className="max-w-[1440px] mx-auto relative">
-      <Hero />
-      <h1>Hello World</h1>
+      <Home />
     </div>
   );
 }
